@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.backgroundcontainer {
+    background-image: linear-gradient(to right top, #7cd16b, #9bce66, #b4cb67, #c8c86d, #d8c576, #dfc478, #e6c47a, #ecc37d, #f0c476, #f4c46e, #f7c567, #fbc55f);
+    background-size: cover;
+    width: auto;
+    height: auto;
+    font-family: Sans-Serif;
+    padding: 5px;
+
+}
+
+.image {
+    height: 150px;
+    width: 60vw;
+    padding: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-container {
+    align-items: center;
+    height: 200px;
+    display: flex;
+    font-family: Sans-Serif;
+
+}
+
+#mainheading {
+    font-size: 20px;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+#lifespan {
+    font-size: 16px;
+
+    text-align: center;
+
+}
+
+.secondsection {
+    margin: 2px;
+}
+
+
+.unorderlist {
+    list-style-type: circle;
+    line-height: 1;
+
+    padding: 20px;
+    font-size: 14px;
+}
+
+.aboutheading {
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.aboutpara {
+    font-size: 14px;
+
+    margin-bottom: 10px;
+}
+
+footer {
+    margin: 50px;
+}
+
+footer p {
+    font-size: 16px;
+    text-align: end;
+}
